@@ -18,309 +18,309 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             >
-        <TableLayout
-            android:id="@+id/idTable"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:stretchColumns="*">
-
-            <TableRow
-                android:layout_width="wrap_content"
+            <TableLayout
+                android:id="@+id/idTable"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center_horizontal">
+                android:stretchColumns="*">
 
-                <TextView
+                <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_span="1"
-                    android:background="#F7CC4E"
-                    android:padding="12dip"
-                    android:text="Individu"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
+                    android:gravity="center_horizontal">
 
-                <TextView
-                    android:layout_width="match_parent"
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_span="1"
+                        android:background="#F7CC4E"
+                        android:padding="12dip"
+                        android:text="Individu"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="1"
+                        android:background="#FFF"
+                        android:padding="12dip"
+                        android:text="1"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="2"
+                        android:background="#FFF"
+                        android:padding="12dip"
+                        android:text="2"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_span="1"
-                    android:background="#FFF"
-                    android:padding="12dip"
-                    android:text="1"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
+                    android:gravity="center_horizontal">
 
-                <TextView
-                    android:layout_width="match_parent"
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="1"
+                        android:background="#F7CC4E"
+                        android:padding="12dip"
+                        android:text="Temps"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="1"
+                        android:background="#FFF"
+                        android:padding="12dip"
+                        android:text="2"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="2"
+                        android:background="#FFF"
+                        android:padding="12dip"
+                        android:text="3"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_span="2"
-                    android:background="#FFF"
-                    android:padding="12dip"
-                    android:text="2"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
+                    android:gravity="center_horizontal">
 
-            </TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="1"
+                        android:background="#F7CC4E"
+                        android:padding="12dip"
+                        android:text="Distance parcourue"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
 
-            <TableRow
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="1"
+                        android:background="#FFF"
+                        android:padding="12dip"
+                        android:text="2"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
 
-                <TextView
-                    android:layout_width="match_parent"
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="2"
+                        android:background="#FFF"
+                        android:padding="12dip"
+                        android:text="3"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_span="1"
-                    android:background="#F7CC4E"
-                    android:padding="12dip"
-                    android:text="Temps"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
+                    android:gravity="center_horizontal">
 
-                <TextView
-                    android:layout_width="match_parent"
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_span="1"
+                        android:background="#F7CC4E"
+                        android:padding="12dip"
+                        android:text="Distance parcourue (en 1 min)"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="1"
+                        android:background="#FFF"
+                        android:padding="12dip"
+                        android:text="2"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="2"
+                        android:background="#FFF"
+                        android:padding="12dip"
+                        android:text="3"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_span="1"
-                    android:background="#FFF"
-                    android:padding="12dip"
-                    android:text="2"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
+                    android:gravity="center_horizontal">
 
-                <TextView
-                    android:layout_width="match_parent"
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="1"
+                        android:background="#F7CC4E"
+                        android:padding="12dip"
+                        android:text="Vitesse actuelle"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="1"
+                        android:background="#FFF"
+                        android:padding="12dip"
+                        android:text="2"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="2"
+                        android:background="#FFF"
+                        android:padding="12dip"
+                        android:text="3"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_span="2"
-                    android:background="#FFF"
-                    android:padding="12dip"
-                    android:text="3"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
+                    android:gravity="center_horizontal">
 
-            </TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="1"
+                        android:background="#F7CC4E"
+                        android:padding="12dip"
+                        android:text="Vitesse maximale"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
 
-            <TableRow
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="1"
+                        android:background="#FFF"
+                        android:padding="12dip"
+                        android:text="2"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
 
-                <TextView
-                    android:layout_width="match_parent"
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="2"
+                        android:background="#FFF"
+                        android:padding="12dip"
+                        android:text="3"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_span="1"
-                    android:background="#F7CC4E"
-                    android:padding="12dip"
-                    android:text="Distance parcourue"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
+                    android:gravity="center_horizontal">
 
-                <TextView
-                    android:layout_width="match_parent"
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="1"
+                        android:background="#F7CC4E"
+                        android:padding="12dip"
+                        android:text="Vitesse moyenne"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="1"
+                        android:background="#FFF"
+                        android:padding="12dip"
+                        android:text="2"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="2"
+                        android:background="#FFF"
+                        android:padding="12dip"
+                        android:text="3"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_span="1"
-                    android:background="#FFF"
-                    android:padding="12dip"
-                    android:text="2"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="20dp">
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_span="2"
-                    android:background="#FFF"
-                    android:padding="12dip"
-                    android:text="3"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="1"
+                        android:background="#F7CC4E"
+                        android:padding="12dip"
+                        android:text="Taille indiviu"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
 
-            </TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="1"
+                        android:background="#FFF"
+                        android:padding="12dip"
+                        android:text="2"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
 
-            <TableRow
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="2"
+                        android:background="#FFF"
+                        android:padding="12dip"
+                        android:text="3"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_span="1"
-                    android:background="#F7CC4E"
-                    android:padding="12dip"
-                    android:text="Distance parcourue (en 1 min)"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_span="1"
-                    android:background="#FFF"
-                    android:padding="12dip"
-                    android:text="2"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_span="2"
-                    android:background="#FFF"
-                    android:padding="12dip"
-                    android:text="3"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_span="1"
-                    android:background="#F7CC4E"
-                    android:padding="12dip"
-                    android:text="Vitesse actuelle"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_span="1"
-                    android:background="#FFF"
-                    android:padding="12dip"
-                    android:text="2"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_span="2"
-                    android:background="#FFF"
-                    android:padding="12dip"
-                    android:text="3"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_span="1"
-                    android:background="#F7CC4E"
-                    android:padding="12dip"
-                    android:text="Vitesse maximale"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_span="1"
-                    android:background="#FFF"
-                    android:padding="12dip"
-                    android:text="2"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_span="2"
-                    android:background="#FFF"
-                    android:padding="12dip"
-                    android:text="3"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_span="1"
-                    android:background="#F7CC4E"
-                    android:padding="12dip"
-                    android:text="Vitesse moyenne"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_span="1"
-                    android:background="#FFF"
-                    android:padding="12dip"
-                    android:text="2"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_span="2"
-                    android:background="#FFF"
-                    android:padding="12dip"
-                    android:text="3"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
-                android:layout_marginBottom="20dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_span="1"
-                    android:background="#F7CC4E"
-                    android:padding="12dip"
-                    android:text="Taille indiviu"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_span="1"
-                    android:background="#FFF"
-                    android:padding="12dip"
-                    android:text="2"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_span="2"
-                    android:background="#FFF"
-                    android:padding="12dip"
-                    android:text="3"
-                    android:textColor="#000"
-                    android:textSize="12dp" />
-
-            </TableRow>
-        </TableLayout>
+                </TableRow>
+            </TableLayout>
             <ImageView
                 android:id="@+id/image"
                 android:layout_width="100dp"
@@ -346,12 +346,12 @@
                     android:textSize="18sp" />
 
                 <LinearLayout
-                android:id="@+id/infoBis"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_toRightOf="@+id/image"
-                android:orientation="horizontal"
-                android:layout_below="@id/address">
+                    android:id="@+id/infoBis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/image"
+                    android:orientation="horizontal"
+                    android:layout_below="@id/address">
                     <TextView
                         android:id="@+id/sexe"
                         android:layout_width="100dp"
