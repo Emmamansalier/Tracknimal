@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">Tracknimal</string>
+    <string name="nomindividuWiki">Nom : -</string>
+    <string name="especeWiki">Espèce : -</string>
+    <string name="sexeWiki">Sexe : -</string>
+    <string name="ageWiki">Age : -</string>
+    <string name="tailleWiki">Taille : -</string>
+    <string name="milieuWiki">Milieu : -</string>
+    <string name="commentaireWiki">Commentaire : -</string>
+    <string name="imagewiki">imageWiki</string>
+    <string name="individuParam">Individu</string>
+    <string name="indivParamA">1</string>
+    <string name="indivParamB">2</string>
+    <string name="derniereParam">Dernière identification réalisée</string>
+    <string name="derniereParamA">0:0:00</string>
+    <string name="derniereParamB">0:0:00</string>
+    <string name="distanceTotParam">Distance totale parcourue</string>
+    <string name="distanceTotParamA">0 cm</string>
+    <string name="distanceTotParamB">0 cm</string>
+    <string name="distanceDerParam">Distance dernière minute</string>
+    <string name="distanceDerParamA">0 cm</string>
+    <string name="distanceDerParamB">0 cm</string>
+    <string name="vitesseActParam">Vitesse actuelle</string>
+    <string name="vitesseActParamA">0 cm/s</string>
+    <string name="vitesseActParamB">0 cm/s</string>
+    <string name="vitesseMoyParam">Vitesse moyenne</string>
+    <string name="vitesseMoyParamA">0 cm/s</string>
+    <string name="vitesseMoyParamB">0 cm/s</string>
+    <string name="vitesseMax">Vitesse maximale</string>
+    <string name="vitesseMaxParamA">0 cm/s</string>
+    <string name="vitesseMaxParamB">0 cm/s</string>
+    <string name="tailleParam">Taille de l\'individu</string>
+    <string name="tailleParamA">0 cm</string>
+    <string name="tailleParamB">0 cm</string>
 </resources>

@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity">
 
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/scrollView1"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="197dp"
-        android:fillViewport="true">
-        <RelativeLayout
-            xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            >
+            android:layout_height="wrap_content">
+
             <TableLayout
                 android:id="@+id/idTable"
                 android:layout_width="fill_parent"
@@ -30,34 +34,29 @@
                     android:gravity="center_horizontal">
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:id="@+id/indivParam"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_span="1"
                         android:background="#F7CC4E"
                         android:padding="12dip"
-                        android:text="Individu"
+                        android:text="@string/individuParam"
                         android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:textSize="12sp" />
 
-                    <TextView
+                    <ImageButton
+                        android:id="@+id/indivButtonA"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_span="1"
-                        android:background="#FFF"
-                        android:padding="12dip"
-                        android:text="1"
-                        android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/indivParamA"
+                        android:src="@drawable/ic_info_outline_black_24dp" />
 
-                    <TextView
+                    <ImageButton
+                        android:id="@+id/indivButtonB"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_span="2"
-                        android:background="#FFF"
-                        android:padding="12dip"
-                        android:text="2"
-                        android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/indivParamB"
+                        android:src="@drawable/ic_info_outline_black_24dp" />
+
 
                 </TableRow>
 
@@ -67,34 +66,32 @@
                     android:gravity="center_horizontal">
 
                     <TextView
+                        android:id="@+id/identifParam"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_span="1"
                         android:background="#F7CC4E"
                         android:padding="12dip"
-                        android:text="Temps"
+                        android:text="@string/derniereParam"
                         android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:textSize="12sp" />
 
                     <TextView
+                        android:id="@+id/identifParamA"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_span="1"
-                        android:background="#FFF"
                         android:padding="12dip"
-                        android:text="2"
+                        android:text="@string/derniereParamA"
                         android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:textSize="12sp" />
 
                     <TextView
+                        android:id="@+id/identifParamB"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_span="2"
-                        android:background="#FFF"
                         android:padding="12dip"
-                        android:text="3"
+                        android:text="@string/derniereParamB"
                         android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:textSize="12sp" />
 
                 </TableRow>
 
@@ -104,34 +101,32 @@
                     android:gravity="center_horizontal">
 
                     <TextView
+                        android:id="@+id/totaleParam"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_span="1"
                         android:background="#F7CC4E"
                         android:padding="12dip"
-                        android:text="Distance parcourue"
+                        android:text="@string/distanceTotParam"
                         android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:textSize="12sp" />
 
                     <TextView
+                        android:id="@+id/totaleParamA"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_span="1"
-                        android:background="#FFF"
                         android:padding="12dip"
-                        android:text="2"
+                        android:text="@string/distanceTotParamA"
                         android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:textSize="12sp" />
 
                     <TextView
+                        android:id="@+id/totaleParamB"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_span="2"
-                        android:background="#FFF"
                         android:padding="12dip"
-                        android:text="3"
+                        android:text="@string/distanceTotParamB"
                         android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:textSize="12sp" />
 
                 </TableRow>
 
@@ -141,34 +136,32 @@
                     android:gravity="center_horizontal">
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:id="@+id/minuteParam"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_span="1"
                         android:background="#F7CC4E"
                         android:padding="12dip"
-                        android:text="Distance parcourue (en 1 min)"
+                        android:text="@string/distanceDerParam"
                         android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:textSize="12sp" />
 
                     <TextView
+                        android:id="@+id/minuteParamA"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_span="1"
-                        android:background="#FFF"
                         android:padding="12dip"
-                        android:text="2"
+                        android:text="@string/distanceDerParamA"
                         android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:textSize="12sp" />
 
                     <TextView
+                        android:id="@+id/minuteParamB"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_span="2"
-                        android:background="#FFF"
                         android:padding="12dip"
-                        android:text="3"
+                        android:text="@string/distanceDerParamB"
                         android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:textSize="12sp" />
 
                 </TableRow>
 
@@ -178,34 +171,32 @@
                     android:gravity="center_horizontal">
 
                     <TextView
+                        android:id="@+id/actuelleParam"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_span="1"
                         android:background="#F7CC4E"
                         android:padding="12dip"
-                        android:text="Vitesse actuelle"
+                        android:text="@string/vitesseActParam"
                         android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:textSize="12sp" />
 
                     <TextView
+                        android:id="@+id/actuelleParamA"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_span="1"
-                        android:background="#FFF"
                         android:padding="12dip"
-                        android:text="2"
+                        android:text="@string/vitesseActParamA"
                         android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:textSize="12sp" />
 
                     <TextView
+                        android:id="@+id/actuelleParamB"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_span="2"
-                        android:background="#FFF"
                         android:padding="12dip"
-                        android:text="3"
+                        android:text="@string/vitesseActParamB"
                         android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:textSize="12sp" />
 
                 </TableRow>
 
@@ -215,34 +206,32 @@
                     android:gravity="center_horizontal">
 
                     <TextView
+                        android:id="@+id/moyenneParam"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_span="1"
                         android:background="#F7CC4E"
                         android:padding="12dip"
-                        android:text="Vitesse maximale"
+                        android:text="@string/vitesseMoyParam"
                         android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:textSize="12sp" />
 
                     <TextView
+                        android:id="@+id/moyenneParamA"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_span="1"
-                        android:background="#FFF"
                         android:padding="12dip"
-                        android:text="2"
+                        android:text="@string/vitesseMoyParamA"
                         android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:textSize="12sp" />
 
                     <TextView
+                        android:id="@+id/moyenneParamB"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_span="2"
-                        android:background="#FFF"
                         android:padding="12dip"
-                        android:text="3"
+                        android:text="@string/vitesseMoyParamB"
                         android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:textSize="12sp" />
 
                 </TableRow>
 
@@ -252,161 +241,181 @@
                     android:gravity="center_horizontal">
 
                     <TextView
+                        android:id="@+id/maximaleParam"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_span="1"
                         android:background="#F7CC4E"
                         android:padding="12dip"
-                        android:text="Vitesse moyenne"
+                        android:text="@string/vitesseMax"
                         android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:textSize="12sp" />
 
                     <TextView
+                        android:id="@+id/maximaleParamA"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_span="1"
-                        android:background="#FFF"
                         android:padding="12dip"
-                        android:text="2"
+                        android:text="@string/vitesseMaxParamA"
                         android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:textSize="12sp" />
 
                     <TextView
+                        android:id="@+id/maximaleParamB"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_span="2"
-                        android:background="#FFF"
                         android:padding="12dip"
-                        android:text="3"
+                        android:text="@string/vitesseMaxParamB"
                         android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:textSize="12sp" />
 
                 </TableRow>
 
                 <TableRow
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center_horizontal"
-                    android:layout_marginBottom="20dp">
+                    android:gravity="center_horizontal">
 
                     <TextView
+                        android:id="@+id/tailleParam"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_span="1"
                         android:background="#F7CC4E"
                         android:padding="12dip"
-                        android:text="Taille indiviu"
+                        android:text="@string/tailleParam"
                         android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:textSize="12sp" />
 
                     <TextView
+                        android:id="@+id/tailleParamA"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_span="1"
-                        android:background="#FFF"
                         android:padding="12dip"
-                        android:text="2"
+                        android:text="@string/tailleParamA"
                         android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:textSize="12sp" />
 
                     <TextView
+                        android:id="@+id/tailleParamB"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_span="2"
-                        android:background="#FFF"
                         android:padding="12dip"
-                        android:text="3"
+                        android:text="@string/tailleParamB"
                         android:textColor="#000"
-                        android:textSize="12dp" />
+                        android:textSize="12sp" />
 
                 </TableRow>
             </TableLayout>
+
+            <FrameLayout
+                android:id="@+id/barre_separation"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/idTable"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp">
+            </FrameLayout>
+
             <ImageView
-                android:id="@+id/image"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginRight="10dp"
-                android:layout_below="@id/idTable"
-                android:contentDescription="Property Image" />
+                android:id="@+id/imageWiki"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_below="@+id/barre_separation"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="6dp"
+                android:contentDescription="@string/imagewiki"
+                app:srcCompat="@drawable/fish" />
 
-            <LinearLayout
-                android:id="@+id/infoSection"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@+id/image"
-                android:orientation="vertical"
-                android:layout_below="@id/idTable">
-
-                <TextView
-                    android:id="@+id/address"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:text="Espèce"
-                    android:textSize="18sp" />
-
-                <LinearLayout
-                    android:id="@+id/infoBis"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_toRightOf="@+id/image"
-                    android:orientation="horizontal"
-                    android:layout_below="@id/address">
-                    <TextView
-                        android:id="@+id/sexe"
-                        android:layout_width="100dp"
-                        android:layout_height="match_parent"
-                        android:text="Sexe"
-                        android:layout_marginBottom="10dp"
-                        android:textSize="18sp" />
-
-                    <TextView
-                        android:id="@+id/age"
-                        android:layout_width="match_parent"
-                        android:layout_height="fill_parent"
-                        android:text="Age"
-                        android:textSize="18sp" />
-                </LinearLayout>
-
-                <TextView
-                    android:id="@+id/description"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:text="Taille"
-                    android:textSize="18sp" />
-                <TextView
-                    android:id="@+id/milieu"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:text="Milieu"
-                    android:textSize="18sp" />
-
-            </LinearLayout>
             <TextView
                 android:id="@+id/nom"
-                android:layout_width="112dp"
-                android:layout_height="30dp"
-                android:layout_marginBottom="10dp"
-                android:text="Nomindividu"
-                android:layout_below="@+id/infoSection"
-                android:textSize="18sp" />
-            <LinearLayout
-                android:id="@+id/info"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_toRightOf="@+id/nom"
-                android:orientation="vertical"
-                android:layout_below="@id/infoSection">
-                <TextView
-                    android:id="@+id/commentaire"
-                    android:layout_width="150dp"
-                    android:layout_height="30dp"
-                    android:layout_marginBottom="10dp"
-                    android:text="Commentaire"
-                    android:textSize="18sp" />
-            </LinearLayout>
+                android:layout_height="24dp"
+                android:gravity="center"
+                android:layout_below="@+id/barre_separation"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="-6dp"
+                android:layout_toEndOf="@+id/imageWiki"
+                android:layout_toRightOf="@+id/imageWiki"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/nomindividuWiki" />
+
+            <TextView
+                android:id="@+id/espece"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/barre_separation"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="30dp"
+                android:layout_toEndOf="@+id/imageWiki"
+                android:layout_toRightOf="@+id/imageWiki"
+                android:text="@string/especeWiki" />
+
+            <TextView
+                android:id="@+id/sexe"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_below="@+id/barre_separation"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="54dp"
+                android:layout_toEndOf="@+id/imageWiki"
+                android:layout_toRightOf="@+id/imageWiki"
+                android:text="@string/sexeWiki" />
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/barre_separation"
+                android:layout_marginStart="126dp"
+                android:layout_marginLeft="126dp"
+                android:layout_marginTop="54dp"
+                android:layout_toEndOf="@+id/imageWiki"
+                android:layout_toRightOf="@+id/imageWiki"
+                android:text="@string/ageWiki" />
+
+            <TextView
+                android:id="@+id/taille"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/barre_separation"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="78dp"
+                android:layout_toEndOf="@+id/imageWiki"
+                android:layout_toRightOf="@+id/imageWiki"
+                android:text="@string/tailleWiki" />
+
+            <TextView
+                android:id="@+id/milieu"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/barre_separation"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="102dp"
+                android:layout_toEndOf="@+id/imageWiki"
+                android:layout_toRightOf="@+id/imageWiki"
+                android:text="@string/milieuWiki" />
+
+            <TextView
+                android:id="@+id/commentaire"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/barre_separation"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="126dp"
+                android:layout_toEndOf="@+id/imageWiki"
+                android:layout_toRightOf="@+id/imageWiki"
+                android:text="@string/commentaireWiki" />
 
         </RelativeLayout>
 
